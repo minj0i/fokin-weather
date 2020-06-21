@@ -12,7 +12,7 @@ function Loading() {
 const styles = StyleSheet.create({
     conatiner: {
         flex: 1,
-        justifyCOntent: "flex-end",
+        justifyContent: "flex-end",
         paddingHorizontal: 30,
         paddingVertical: 100,
         backgroundColor: "#FDF6AA"
