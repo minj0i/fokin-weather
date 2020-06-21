@@ -1,16 +1,16 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-function Loading() {
+export default function Loading() {
     return (
-    <View style={styles.conatiner}>
+        <View style={styles.container}>
             <Text style={styles.text}>Getting the fucking weather</Text>
-    </View>
+        </View>
     );
 }
 
 const styles = StyleSheet.create({
-    conatiner: {
+    container: {
         flex: 1,
         justifyContent: "flex-end",
         paddingHorizontal: 30,
